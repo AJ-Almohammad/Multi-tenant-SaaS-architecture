@@ -263,7 +263,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - **Live Demo:** https://frontend-ljbgcqlen-ajalmohammads-projects.vercel.app/
 - **GitHub Issues:** Report a bug or request a feature
-- **Email:** your.email@example.com
+- **Email:** amer.almohammad.git.hub@gmail.com
 
 ---
 
