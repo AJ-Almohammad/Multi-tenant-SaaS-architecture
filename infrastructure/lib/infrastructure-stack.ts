@@ -44,7 +44,7 @@ export class TaskMasterInfrastructureStack extends cdk.Stack {
 
     // S3 Bucket
     const assetsBucket = new s3.Bucket(this, "AssetsBucket", {
-      bucketName: "taskmaster-assets-" + this.account + "-" + this.region,
+      bucketName: "taskmaster-assets-" + this.your_AWS_account + "-" + this.your_AWS_region,
       removalPolicy: cdk.RemovalPolicy.DESTROY,
       autoDeleteObjects: true,
       cors: [
