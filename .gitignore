@@ -1,0 +1,54 @@
+# -----------------------
+# Environment files
+# -----------------------
+.env
+backend/.env
+frontend/.env
+infrastructure/.env
+!.env.example
+.env.local
+
+# -----------------------
+# AWS / CDK / Terraform
+# -----------------------
+.aws/
+cdk.context.json
+infrastructure/cdk.context.json
+cdk.out/
+infrastructure/cdk.out/
+
+# Terraform state and vars
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.auto.tfvars
+
+# -----------------------
+# Build outputs
+# -----------------------
+dist/
+frontend/dist/
+build/
+cdk.out/
+
+# -----------------------
+# Node / packages
+# -----------------------
+node_modules/
+
+# -----------------------
+# Secret reports & temp
+# -----------------------
+secrets_report.txt
+
+# -----------------------
+# IDE / OS / logs
+# -----------------------
+.vscode/
+.idea/
+*.log
+logs/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
